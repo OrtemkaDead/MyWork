@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/css/style.min.css">
+
+   <title>Home</title>
+</head>
+
+<body>
+   <header class="header header--welcome">
+      <div class="header__content">
+         <div class="header--welcome__text">Привет,</div>
+         <div class="header__title">Денис Джабаров</div>
+      </div>
+
+      <img class="header__avatar avatar" src="img/avatar-1.png" alt="">
+   </header>
+
+   <div class="section">
+      <div class="section__title">Списки</div>
+
+      <div class="buylist__content">
+
+         <a class="buylist buylist--coop" href="./list.html">
+            <div class="buylist__progress">2 / 5</div>
+            <div class="buylist__name">Еда</div>
+         </a>
+
+         <a class="buylist" href="./list.html">
+            <div class="buylist__progress">2 / 5</div>
+            <div class="buylist__name">Еда</div>
+         </a>
+
+         <a class="buylist" href="./list.html">
+            <div class="buylist__progress">2 / 5</div>
+            <div class="buylist__name">Еда</div>
+         </a>
+
+         <a class="buylist" href="./list.html">
+            <div class="buylist__progress">2 / 5</div>
+            <div class="buylist__name">Еда</div>
+         </a>
+
+      </div>
+
+   </div>
+
+   <div class="section">
+      <div class="section__title">Нужно</div>
+
+      <div class="need-to__content">
+
+         <label class="need-to__item">
+            <input class="need-to__check" type="checkbox">
+            <div class="need-to__text">Макароны</div>
+         </label>
+
+         <label class="need-to__item">
+            <input class="need-to__check" type="checkbox">
+            <div class="need-to__text">Макароны</div>
+         </label>
+
+         <label class="need-to__item">
+            <input class="need-to__check" type="checkbox">
+            <div class="need-to__text">Макароны</div>
+         </label>
+
+      </div>
+
+   </div>
+
+   <div class="section">
+      <div class="section__title">Куплено</div>
+
+      <div class="need-to__content">
+
+         <label class="need-to__item">
+            <input class="need-to__check" type="checkbox" checked>
+            <div class="need-to__text">Макароны</div>
+         </label>
+
+         <label class="need-to__item">
+            <input class="need-to__check" type="checkbox" checked>
+            <div class="need-to__text">Макароны</div>
+         </label>
+
+      </div>
+
+   </div>
+
+   <a class="btn" href="#popup-homepage"><img src="./img/settings.svg" alt=""></a>
+
+   <div class="popup" id="popup-homepage">
+      <div class="popup__content popup__content--homepage">
+
+         <div class="header header--modal">Настройки домашней страницы</div>
+
+         <div class="section--modal-horizontal">
+            <div class="section__title">Активный список</div>
+
+            <div class="horizontal-content">
+               <div class="buylist buylist--coop">
+                  <div class="buylist__progress">2 / 5</div>
+                  <div class="buylist__name">Еда</div>
+               </div>
+
+               <div class="buylist">
+                  <div class="buylist__progress">2 / 5</div>
+                  <div class="buylist__name">Еда</div>
+               </div>
+
+               <div class="buylist">
+                  <div class="buylist__progress">2 / 5</div>
+                  <div class="buylist__name">Еда</div>
+               </div>
+            </div>
+         </div>
+
+         <div class="section--modal-horizontal">
+            <div class="section__title">Отображение списка</div>
+
+            <div class="filters horizontal-content">
+               <button class="btn--filters active">Всё</button>
+               <button class="btn--filters">Нужно</button>
+               <button class="btn--filters">Куплено</button>
+            </div>
+         </div>
+
+         <div class="section">
+            <div class="section__title">Пользователи</div>
+
+            <div class="users">
+               <div class="users__item">
+                  <img class="users__avatar avatar" src="./img/avatar-1.png" alt="">
+                  <div class="users__name">Денис Джабаров</div>
+               </div>
+
+               <div class="users__item">
+                  <img class="users__avatar avatar" src="./img/avatar-2.png" alt="">
+                  <div class="users__name">Просто Артём</div>
+               </div>
+
+               <div class="users__item">
+                  <img class="users__avatar avatar" src="./img/avatar-1.png" alt="">
+                  <div class="users__name">Макс Бачинин</div>
+               </div>
+
+               <button class="btn--add">Добавить</button>
+            </div>
+
+         </div>
+
+      </div>
+   </div>
+
+</body>
+
+</html>
